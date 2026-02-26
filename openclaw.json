@@ -1,0 +1,13 @@
+{
+  "model_routing": {
+    "heartbeat": "claude-haiku-4-5-20251001",
+    "conversation_default": "claude-haiku-4-5-20251001",
+    "conversation_complex": "claude-sonnet-4-6",
+    "fallback": "claude-haiku-4-5-20251001"
+  },
+  "response_limits": {
+    "max_tokens_default": 200,
+    "max_tokens_command_center": 400,
+    "max_tokens_heartbeat": 75
+  }
+}
